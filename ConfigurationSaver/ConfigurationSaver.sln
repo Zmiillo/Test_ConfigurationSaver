@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33328.57
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LogicLayer", "LogicLayer", "{DBA8A675-77F3-4FB7-83CA-FE80E643ADD0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogicLayerLibrary", "..\LogicLayerLibrary\LogicLayerLibrary.csproj", "{AC788E16-AB98-43D9-8499-E6C051E756F2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{7846CEB6-9A38-4D29-9412-2D02D39ABC69}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestWebApi", "..\RestWebApi\RestWebApi.csproj", "{99B7A6B6-A74B-4C35-9435-4258ECA43EE6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{09ED3A80-F96F-4204-B2CC-5D91FB094925}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataLibrary", "..\DataLibrary\DataLibrary.csproj", "{80D52482-99D1-4CB7-8AB5-3CFBFD7B2639}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{1A2B3788-473D-4DD9-9320-D703217F4E7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "..\UnitTests\UnitTests.csproj", "{A2581277-3973-4E29-BA92-B9071F15CFCB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hubs", "Hubs", "{33E3A334-F97A-4EE6-A0C8-28F963EAE822}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageHub", "..\MessageHub\MessageHub.csproj", "{7F9303DB-D7AA-4220-8CFF-EE7381B8A5B5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC788E16-AB98-43D9-8499-E6C051E756F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC788E16-AB98-43D9-8499-E6C051E756F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC788E16-AB98-43D9-8499-E6C051E756F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC788E16-AB98-43D9-8499-E6C051E756F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99B7A6B6-A74B-4C35-9435-4258ECA43EE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99B7A6B6-A74B-4C35-9435-4258ECA43EE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99B7A6B6-A74B-4C35-9435-4258ECA43EE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99B7A6B6-A74B-4C35-9435-4258ECA43EE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80D52482-99D1-4CB7-8AB5-3CFBFD7B2639}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80D52482-99D1-4CB7-8AB5-3CFBFD7B2639}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80D52482-99D1-4CB7-8AB5-3CFBFD7B2639}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80D52482-99D1-4CB7-8AB5-3CFBFD7B2639}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2581277-3973-4E29-BA92-B9071F15CFCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2581277-3973-4E29-BA92-B9071F15CFCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2581277-3973-4E29-BA92-B9071F15CFCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2581277-3973-4E29-BA92-B9071F15CFCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F9303DB-D7AA-4220-8CFF-EE7381B8A5B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F9303DB-D7AA-4220-8CFF-EE7381B8A5B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F9303DB-D7AA-4220-8CFF-EE7381B8A5B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F9303DB-D7AA-4220-8CFF-EE7381B8A5B5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AC788E16-AB98-43D9-8499-E6C051E756F2} = {DBA8A675-77F3-4FB7-83CA-FE80E643ADD0}
+		{99B7A6B6-A74B-4C35-9435-4258ECA43EE6} = {7846CEB6-9A38-4D29-9412-2D02D39ABC69}
+		{80D52482-99D1-4CB7-8AB5-3CFBFD7B2639} = {09ED3A80-F96F-4204-B2CC-5D91FB094925}
+		{A2581277-3973-4E29-BA92-B9071F15CFCB} = {1A2B3788-473D-4DD9-9320-D703217F4E7F}
+		{7F9303DB-D7AA-4220-8CFF-EE7381B8A5B5} = {33E3A334-F97A-4EE6-A0C8-28F963EAE822}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2F64DDBB-0EE8-474E-98F9-7F2D07A1B1E5}
+	EndGlobalSection
+EndGlobal
